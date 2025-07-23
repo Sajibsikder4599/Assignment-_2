@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+@media screen and (max-width:576px) {
+
+    .simple-menu{
+        display: none;
+
+    }
+
+
+    .card{
+        font-size: 25px;
+        margin-top: 1.7rem;
+        color: #1E1E1E;
+         font-weight: 400;
+    }
+   .card-item-p{
+    font-size: 25px;
+     color: #1E1E1E;
+    font-weight: 400;
+
+   }
+ 
+}
