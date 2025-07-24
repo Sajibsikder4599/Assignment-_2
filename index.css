@@ -478,8 +478,50 @@ width: 3px;
 }
 
 
+/* join section  */
 
+.join-section{
+    background-image: url(./images/news-letter-bg.png);
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+    align-items: center;
+    justify-items: center;
+    margin-top: 6rem;
+}
 
+.join{
+   
+    margin: auto;
+    
+}
+.join-heading{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.join-input{
+display: flex;
+width: 50rem;
+
+}
+
+.join-input input{
+    width:40rem ;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+}
+.join-input button{
+    width:10rem ;
+    background-color: #E95A08;
+    border: none;
+    color: white;
+}
 
 
 /* media screen */
