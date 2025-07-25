@@ -330,7 +330,7 @@ overflow: hidden;
     position: absolute;
      text-decoration: underline;
     top: 60%;
-    left: 35%;
+    left: 30%;
 
     z-index: 1;
 
@@ -680,12 +680,20 @@ width: 50rem;
 }
 
 .plan-heading{
-    max-width: 400px;
+    width: 90%;
     text-wrap: wrap;
     margin-bottom: 0;
   
 
 }
+
+.plan-heading h2,.plan-heading span{
+    font-size: 3rem;
+}
+.plan-heading p{
+    font-size: 1.2rem;
+}
+
 .plan-heading .plan-text{
     text-align: justify;
     font-size: 1rem;
@@ -717,23 +725,32 @@ width: 50rem;
 .lover-content{
  width:90%;
  margin-left: 2px;
+ height: auto;
 }
 
 .lover-heading{
 
     margin-left: 7%;
+   
 }
+
+.lover-heading h3{
+     font-size: 3rem;
+}
+
 .letest-section{
-   width:20rem;
+  max-width: 100%;
     margin-left: 0;
     text-align: center;
     margin: auto;
-   
+
+padding-top: 2%;
+   padding-bottom: 5%;
 
 }
 
 .letest-section-paragraph{
-   max-width: 100%;
+   width: 90%;
     text-align: center;
 }
 
@@ -746,40 +763,68 @@ width: 50rem;
     flex-direction: column;
     max-width: 100%;
     margin: auto;
+   
 
 } 
 .challenge-left{
-    width: 100%;
+    width: 90%;
     padding-bottom: 1.5rem;
-   margin: auto;
+ margin: auto;
    
  
  
    
 }
 .challenge-right{
-    width: 95%;
+    width: 90%;
     height:13rem;
     margin: auto;
     
 }
+.sixty-off{
+   
+}
+.challenge-right{
+    position: relative;
+}
+.tweenty-five-off button{
+    border: none;
+    background-color:transparent;
+    color: white;
+   
+    width: 8.6rem;
+    height: 40px;
+    font-size:1.10rem;
+    cursor: pointer;
+    position: absolute;
+     text-decoration: underline;
+     
+    top: 55%;
+    left: 32%;
+}
+
+
 
 .thirty-off,.sixty-off{
-    width: 95%;
+    width: 100%;
+   
+    
 
 }
 
 .join-section{
-
+max-width: 100%;
 height: 22rem;
 margin-top:1.9rem ;
 }
 .join{
-width: 80%;
+width: 100%;
+
   }
 
   .join-input{
-    width: 100%;
+    width: 80%;
+    margin: auto;
     
   }
   .join-input input{
