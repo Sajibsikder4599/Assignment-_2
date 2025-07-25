@@ -818,13 +818,14 @@ height: 22rem;
 margin-top:1.9rem ;
 }
 .join{
-width: 100%;
+width: 80%;
+margin: auto;
 
   }
 
   .join-input{
     width: 80%;
-    margin: auto;
+    
     
   }
   .join-input input{
