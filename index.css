@@ -9,6 +9,8 @@ body{
   
 margin: 0;
 padding: 0;
+
+overflow-x: hidden;
 }
 .header{
  margin-top: 30px;
@@ -617,6 +619,8 @@ width: 50rem;
 }
     .nav-bar{
         padding: 0 ;
+width: 85%;
+
     }
     .simple-menu{
         display: none;
@@ -925,11 +929,17 @@ font-size: 1rem;
 
 @media screen and (max-width:350px){
 
+body{
+    overflow-x: hidden;
+}
+
+
 .header{
     width: 100%;
+
 }
 .nav-bar{
-width: 95%;
+width: 85%;
 margin: auto;
 }
 
@@ -942,9 +952,11 @@ margin: auto;
 .baanner-section{
     width: 100%;
     margin: auto;
+    
 }
 .our-plant-section{
     width: 100%;
+    
 }
 .flower-lover-section{
     width: 100%;
