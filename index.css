@@ -1,6 +1,11 @@
 /* @import "tailwindcss"; */
 
 /* header-section design */
+
+
+body{
+    margin: 0;
+}
 .header{
  margin-top: 30px;
 }
@@ -29,14 +34,35 @@
 
 
 }
+
+
+
 .menu ul li{
 margin-right: 20px;
+list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+   
+
+}
+.grey{
+    color: #00000077;
+}
+
+.bold{
+    color: #000000;
 }
 .card{
     display: flex;
      text-transform: capitalize;
+     justify-content: center;
+     align-items: center;
 }
-
+.card .icon {
+    margin-right: 5px;
+}
 .bold{
     font-weight: 600;
 }
@@ -147,7 +173,7 @@ width: 100%;
     padding: 5px 0;
     margin-top: 15px;
 }
-
+/* flower lover section */
 .flower-lover-section{
     max-width: 71.25rem;
     margin: auto;
@@ -486,7 +512,8 @@ width: 3px;
     background-position: center;
     background-size: cover;
     display: flex;
-    
+    margin-left: 0;
+    margin-right: 0;
     align-items: center;
     justify-items: center;
     margin-top: 6rem;
@@ -522,6 +549,59 @@ width: 50rem;
     border: none;
     color: white;
 }
+
+/*              footer section     */
+
+.footer-section{
+ padding: 1.5rem 0;
+}
+
+.footer-div{
+    max-width: 71.25rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 35% 15% 15% 35%;
+    grid-template-columns: 35% 15% 15% 35%;
+    margin: auto;
+}
+.footer-left{
+    width: 21rem;
+}
+.footer-left p{
+
+    color: #1e1e1ea2;
+    font-size: 1.1rem;
+}
+
+.footer-middle1 ul li,.footer-middle2 ul li{
+    list-style: none;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+   
+}
+.footer-middle1 ul li a,.footer-middle2 ul li a{
+    text-decoration: none;
+     color: #1e1e1ea2;
+}
+
+.footer-div .footer-right{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 10% 10% 10% 10%;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+.footer-right .icon1{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
 
 
 /* media screen */
