@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 
 /* header-section design */
 
@@ -7,8 +7,8 @@ body{
    
    box-sizing: border-box;
   
-
- 
+margin: 0;
+padding: 0;
 }
 .header{
  margin-top: 30px;
@@ -78,7 +78,7 @@ list-style: none;
 
 .baanner-section{
     display: flex;
-    max-width:1140px;
+     max-width: 71.25rem;
     margin: auto;
     padding-top: 20px ;
     align-items: center;
@@ -240,7 +240,7 @@ overflow: hidden;
 
 
 .letest-section{
-    width: 1140px;
+   max-width: 71.25rem;
     margin: auto;
     text-align: center;
    
@@ -270,7 +270,7 @@ overflow: hidden;
 
 
 .challenge-section{
-    max-width: 1140px;
+    max-width: 71.25rem;
    margin: auto;
   padding: 5px ;
    display: flex;
@@ -511,9 +511,9 @@ width: 3px;
 /* join section  */
 
 .join-section{
-      width: 100%;
+       max-width:100%;
    margin-top: 5rem;
-    height: 22rem;
+    height: 30rem;
     background-position: center;
    background-size:cover;
    background-repeat: no-repeat;
@@ -722,9 +722,10 @@ width: 50rem;
 
 
 .lover-content{
- width:90%;
+ width:95%;
  margin-left: 2px;
  height: auto;
+ 
 }
 
 .lover-heading{
@@ -1010,7 +1011,7 @@ font-size: 0.8rem;
 
 }
 .footer-left{
-    width: 100%;
+    width: 80%;
 }
 .footer-left .logo{
     width: 50%;
