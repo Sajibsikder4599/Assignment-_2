@@ -608,6 +608,10 @@ width: 50rem;
 
 
 /* media screen */
+
+ 
+
+
 @media screen and (max-width:576px) {
   
      
@@ -635,7 +639,7 @@ width: 50rem;
    }
    .baanner-section{
     flex-direction: column-reverse;
-    width: 100%;
+   max-width: 100%;
    
    }
  .heading{
@@ -662,14 +666,16 @@ width: 50rem;
     text-align: justify;
 }
 .our-plant-section{
-     max-width: 470px;
+     max-width: 100%;
+    
 }
 .plant-cards-items{
     align-items: center;
     justify-content: center;
     margin-left: 10px;
-   max-width:470px;
+   width:95%;
     grid-template-columns: repeat(2,1fr);
+     margin: auto;
     
 }
 
@@ -687,7 +693,8 @@ width: 50rem;
 }
 
 .plant-single-card{
-    width: 200px;
+    width: 80%;
+    margin-left: 20px;
     height: 380px;
     margin-top: 0;
 }
@@ -695,16 +702,27 @@ width: 50rem;
 
 .flower-lover-section{
     flex-direction: column;
-    width:25rem;
+    max-width: 100%;
 }
 .flower-lover-section .batch{
     display: none;
 }
-.lover-content{
- width:23rem;
- margin-left:0 ;
+.img-lover{
+    width: 90%;
+    margin: auto;
 }
 
+
+
+.lover-content{
+ width:90%;
+ margin-left: 2px;
+}
+
+.lover-heading{
+
+    margin-left: 7%;
+}
 .letest-section{
    width:20rem;
     margin-left: 0;
@@ -715,7 +733,7 @@ width: 50rem;
 }
 
 .letest-section-paragraph{
-    width: 100%;
+   max-width: 100%;
     text-align: center;
 }
 
@@ -726,21 +744,29 @@ width: 50rem;
 
 .challenge-section {
     flex-direction: column;
-    width: 25rem;
+    max-width: 100%;
+    margin: auto;
 
 } 
 .challenge-left{
-    width: 90%;
-    margin-bottom: 1.5rem;
+    width: 100%;
+    padding-bottom: 1.5rem;
+   margin: auto;
    
  
  
    
 }
 .challenge-right{
-    width: 100%;
+    width: 95%;
     height:13rem;
+    margin: auto;
     
+}
+
+.thirty-off,.sixty-off{
+    width: 95%;
+
 }
 
 .join-section{
@@ -806,6 +832,9 @@ font-size: 1.2rem;
     justify-content:left;
     margin-top: 1rem;
     margin-left: -9rem;
+    overflow: hidden;
+    padding-bottom: 10%;
+
 }
 .footer-right .icon, .footer-right  .icon{
     height: 2rem;
@@ -813,13 +842,14 @@ font-size: 1.2rem;
 
 }
 
+/* 
 
-@media screen and (max-width:450px){
+@media screen and (minimum-width:0px) and (max-width:450px){
   
 
 .header,.baanner-section,.our-plant-section,.flower-lover-section,
 .letest-section,.footer-section{
-    width:28rem;
+    width:25rem;
 }
 .banner-img{
     width: 100%;
@@ -899,16 +929,17 @@ font-size: 1.2rem;
     width: 220px;
 }
 
-  
-}
+} */
 
-@media screen and (min-width: 250px) and (max-width:400px){
+/* 
+
+@media screen and (max-width:400px){
 
 .header{
    max-width:24rem;
 }
 .nav-bar{
-    width: 95%;
+    width: 85%;
 
 }
 .nav-bar .card{
@@ -1045,6 +1076,8 @@ margin-left: 0;
     justify-content: left;
     margin-left: -42px;
    width: 90%;
+   overflow: hidden;
 }
 
 }
+} */
