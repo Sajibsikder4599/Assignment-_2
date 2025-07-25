@@ -639,9 +639,13 @@ width: 50rem;
    
    }
  .heading{
-    width: 500px;
+    width: 90%;
     padding: 0 30px;
     
+ }
+
+ .banner-img{
+    width: 100%;
  }
 .heading h3{
     font-size: 2.3rem;
@@ -783,15 +787,16 @@ font-size: 1.2rem;
 
 
 .footer-left .logo img{
-    width: 80%;
+    width: 50%;
+}
+.footer-left p {
+
+    font-size: 1.2rem;
 }
 
 
-.footer-middle1 ul li , .footer-middle2 ul li {
-  
-}
 .footer-middle1 ul li a,.footer-middle2 ul li a{
-    font-size: 1.9rem;
+    font-size: 1.2rem;
     
     
 }
@@ -811,6 +816,56 @@ font-size: 1.2rem;
 
 @media screen and (max-width:450px){
   
+
+.header,.baanner-section,.our-plant-section,.flower-lover-section,
+.letest-section,.footer-section{
+    width:28rem;
+}
+.banner-img{
+    width: 100%;
+}
+.plant-single-card{
+    margin-left: 15px;
+}
+.img-lover,.lover-content{
+    width: 90%;
+    margin: auto;
+}
+.nav-bar{
+    width: 90%;
+}
+
+.letest-section-paragraph{
+    width: 90%;
+    margin: auto;
+}
+
+
+.footer-div{
+
+    width: 100%;
+}
+.footer-div .footer-left .logo{
+    width: 50%;
+}
+.footer-div .footer-left p{
+    font-size: 1.2rem;
+}
+
+.footer-middle1 ul li , .footer-middle2 ul li {
+  
+}
+.footer-middle1 ul li a,.footer-middle2 ul li a{
+    font-size: 1.2rem;
+    
+    
+}
+.footer-right{
+  
+   
+    margin-left: -8rem;
+}
+
  .heading{
     width: 360px;
     padding: 0 5px;
@@ -847,7 +902,7 @@ font-size: 1.2rem;
   
 }
 
-@media screen and (min-width: 250px) and (max-width:390px){
+@media screen and (min-width: 250px) and (max-width:400px){
 
 .header{
    max-width:24rem;
@@ -871,9 +926,9 @@ font-size: 1.2rem;
 }
 
 .banner-img{
-    margin: auto;
+   
     width: 100%;
-    margin-left: 1.5rem;
+  
 }
 .banner-img img{
 width: 100%;
@@ -928,7 +983,7 @@ padding-bottom: 0;
 
 .img-lover,.lover-content{
     width: 95%;
-     margin-left: 1.5rem;
+     padding-left: 1rem;
 }
 
 .lover-content .lover-heading {
@@ -988,7 +1043,7 @@ margin-left: 0;
 .footer-right{
     text-align: left;
     justify-content: left;
-    margin-left: -45px;
+    margin-left: -42px;
    width: 90%;
 }
 
