@@ -6,7 +6,7 @@
 body{
     margin: 0;
    
-    width: 100%;
+    max-width: 100%;
 }
 .header{
  margin-top: 30px;
@@ -614,8 +614,7 @@ width: 50rem;
 
 @media screen and (max-width:576px) {
   
-     
-
+    
     .nav-bar{
         padding: 0 15px;
     }
@@ -781,9 +780,7 @@ padding-top: 2%;
     margin: auto;
     
 }
-.sixty-off{
-   
-}
+
 .challenge-right{
     position: relative;
 }
@@ -816,6 +813,7 @@ padding-top: 2%;
 max-width: 100%;
 height: 22rem;
 margin-top:1.9rem ;
+overflow-x: hidden;
 }
 .join{
 width: 80%;
@@ -825,13 +823,14 @@ margin: auto;
 
   .join-input{
     width: 80%;
+    margin: auto;
     
     
   }
   .join-input input{
-    padding: 20px 0px;
-    padding-left: 10px;
-    font-size: 1.2rem;
+       font-size: 1.2rem;
+       width: 90%;
+       
   }
 .join  button{
 font-size: 1.2rem;
@@ -841,7 +840,7 @@ font-size: 1.2rem;
 }
 
 .footer-section{
-    width: 30rem;
+    max-width: 100%;
 }
 
 .footer-div {
@@ -851,7 +850,14 @@ font-size: 1.2rem;
 }
 .footer-left{
     margin-left: 2.1rem;
+    width: 90%;
 }
+
+.footer-middle1,.footer-middle2,.footer-right{
+    width: 90%;
+}
+
+
 
 .footer-left p{
     font-size: 1.8rem;
@@ -872,18 +878,27 @@ font-size: 1.2rem;
     
     
 }
-
+.footer-div{
+    width: 90%;
+}
 .footer-right{
+    
   text-align: left;
     justify-content:left;
     margin-top: 1rem;
-    margin-left: -9rem;
+    margin-left:1.8rem;
     overflow: hidden;
     padding-bottom: 10%;
 
 }
 .footer-right .icon, .footer-right  .icon{
     height: 2rem;
+    
+}
+
+.footer-div .footer-right{
+    text-align: start;
+    justify-content: start;
 }
 
 }
