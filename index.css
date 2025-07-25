@@ -616,7 +616,7 @@ width: 50rem;
   
     
     .nav-bar{
-        padding: 0 15px;
+        padding: 0 ;
     }
     .simple-menu{
         display: none;
@@ -625,7 +625,7 @@ width: 50rem;
 
 
     .card{
-        font-size: 25px;
+        font-size: 1.5rem;
         margin-top: 1.72rem;
         color: #1E1E1E;
          font-weight: 400;
@@ -816,7 +816,7 @@ margin-top:1.9rem ;
 overflow-x: hidden;
 }
 .join{
-width: 80%;
+width: 90%;
 margin: auto;
 
   }
@@ -833,7 +833,10 @@ margin: auto;
        
   }
 .join  button{
-font-size: 1.2rem;
+font-size: 1rem;
+}
+.join-input button {
+    width: 40%;
 }
 .join-heading h3{
     font-size: 1.6rem;
@@ -878,8 +881,13 @@ font-size: 1.2rem;
     
     
 }
+
+
+.footer-middle1 ul,.footer-middle2 ul{
+    margin-left: 0;
+}
 .footer-div{
-    width: 90%;
+    width: 100%;
 }
 .footer-right{
     
