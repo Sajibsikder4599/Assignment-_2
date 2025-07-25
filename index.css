@@ -609,11 +609,9 @@ width: 50rem;
 
 /* media screen */
 
- 
-
 
 @media screen and (max-width:576px) {
-  
+
     
     .nav-bar{
         padding: 0 ;
@@ -909,7 +907,7 @@ font-size: 1rem;
     justify-content: start;
 }
 
-}
+} 
 
 /* 
 
