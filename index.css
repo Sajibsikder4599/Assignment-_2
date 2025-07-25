@@ -635,14 +635,14 @@ width: 85%;
          font-weight: 400;
     }
    .card-item-p{
-    font-size: 25px;
+    font-size: 1.6rem;
      color: #1E1E1E;
     font-weight: 400;
 
    }
    .baanner-section{
     flex-direction: column-reverse;
-   max-width: 100%;
+   width: 100%;
    
    }
  .heading{
@@ -949,6 +949,12 @@ margin: auto;
         color: #1E1E1E;
         
     }
+
+.card p{
+    font-size: 1rem;
+}
+
+
 .baanner-section{
     width: 100%;
     margin: auto;
