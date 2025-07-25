@@ -509,6 +509,7 @@ width: 3px;
 /* join section  */
 
 .join-section{
+      width: 100vw;
     background-image: url(./images/news-letter-bg.png);
     height: 450px;
     background-position: center;
@@ -844,4 +845,151 @@ font-size: 1.2rem;
 }
 
   
+}
+
+@media screen and (min-width: 250px) and (max-width:390px){
+
+.header{
+   max-width:24rem;
+}
+.nav-bar{
+    width: 95%;
+
+}
+.nav-bar .card{
+    font-size: 1.1rem;
+}
+.baanner-section{
+     width:22rem;
+
+}
+
+
+
+.heading .small-divice{
+    margin-bottom: 0px;
+}
+
+.banner-img{
+    margin: auto;
+    width: 100%;
+    margin-left: 1.5rem;
+}
+.banner-img img{
+width: 100%;
+}
+.heading{
+    width: 95%;
+}
+
+.our-plant-section{
+    width: 22rem;
+    margin-bottom: 0;
+}
+.plan-heading{
+    width: 95%;
+}
+
+.plant-cards-items{
+    width: 22rem;
+}
+.plant-single-card{
+
+width:90%;
+margin-bottom: 0;
+
+}
+
+.flower-lover-section{
+    width: 22rem;
+   
+    
+
+}
+
+.flower-lover-section ul{
+text-align: center;
+
+}
+
+.lover-content{
+    height: 24rem;
+}
+.lover-content .lover-heading{
+    margin-bottom: 0;
+    height: 2.1rem;
+}
+
+.flower-lover-section ul li{
+margin-left: -1.5rem;
+padding-bottom: 0;
+}
+
+
+.img-lover,.lover-content{
+    width: 95%;
+     margin-left: 1.5rem;
+}
+
+.lover-content .lover-heading {
+    font-size: 1.2rem;
+}
+
+
+.challenge-section{
+    width: 22rem;
+    justify-content: center;
+    align-items: center;
+}
+.thirty-off,.sixty-off{
+    width: 100%;
+}
+.challenge-left{
+    width: 90%;
+    margin-left: 1rem;
+}
+.challenge-right{
+    width: 90%;
+}
+
+.join-section{
+   width: 100%;
+}
+
+.join-heading h3{
+ font-size: 1.2rem;
+}
+.join-input input{
+    width: 90%;
+    padding: 10px 0;
+}
+
+.footer-section{
+    width: 22rem;
+    padding-bottom: 1.2rem ;
+    
+}
+
+.footer-div {
+margin-left: 0;
+}
+.footer-div .footer-left .logo{
+    width: 50%;
+}
+.footer-div .footer-left p{
+    font-size: 1.2rem;
+}
+
+
+.footer-middle1 ul li a,.footer-middle2 ul li a{
+    font-size: 1.3rem;
+}
+
+.footer-right{
+    text-align: left;
+    justify-content: left;
+    margin-left: -45px;
+   width: 90%;
+}
+
 }
